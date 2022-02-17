@@ -70,19 +70,31 @@ This is an example of how to list things you need to use the software and how to
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. TBD
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/MichalKmi/cypress_side_for_tests.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Running
 
+
+1. Runing the json-server with generated ad-hoc data on port eg. 9876
+   ```sh
+   json-server cypress/data/generate.js -p 9875
+   ```
+2. Runing the json-server with data from json file port eg. 9876
+   ```sh
+   json-server cypress/data/data_file.json -p 9875
+   ```
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ROADMAP -->
 ## Roadmap
