@@ -10,7 +10,7 @@ describe('get api user tests', () => {
             }
         }).then((response) => {
             cy.log(JSON.stringify(response.body));
-            cy.expects(response.status).equal(200);
+            cy.expect(response.status).equal(200);
             cy.expect(JSON.stringify(response.body.gender)).to.equal('"male"');
         })
     })
