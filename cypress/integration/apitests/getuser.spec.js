@@ -1,10 +1,9 @@
 describe('get api user tests', () => {
 
     it('get users', () => {
-        cy.log(Cypress.env("GOREST_BEARER"))
         cy.request({
             method: 'GET',
-            url: 'https://gorest.co.in/public/v2/users/4906',
+            url: 'https://gorest.co.in/public/v2/users/3518', //dynamically changed, to be aware about it
             headers: {
                 Authorization: Cypress.env("GOREST_BEARER")
             }
