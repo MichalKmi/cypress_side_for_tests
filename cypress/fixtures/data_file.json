@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Chip and Dale",
+      "gender": "female",
+      "email": "chipandale4@gmail.com",
+      "status": "active"
+    },
+    {
+      "name": "Only Dale",
+      "gender": "male",
+      "email": "onlydale@gmail.com",
+      "status": "active"
+    }
+  ]
+}
