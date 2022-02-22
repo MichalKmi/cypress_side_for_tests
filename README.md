@@ -56,8 +56,9 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 * cypress runner
+
   ```sh
-npx cypress open 
+  npx cypress open 
   ```
 * command line
   ```sh
