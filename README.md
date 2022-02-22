@@ -55,9 +55,14 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
-TBD
-
+* cypress runner
+  ```sh
+npx cypress open 
+  ```
+* command line
+  ```sh
+  npx cypress run --spec "<<path to js file you want to run>>"
+  ```
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
